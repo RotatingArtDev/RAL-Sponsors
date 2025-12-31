@@ -14,9 +14,14 @@ import csv
 import json
 import sys
 import re
+import os
+import hashlib
 from datetime import datetime
 from collections import defaultdict
-from typing import Dict, List
+from typing import Dict, List, Tuple
+
+# Pillow for avatar generation
+from PIL import Image, ImageDraw, ImageFont
 
 # 爱发电CSV列索引 (固定格式)
 COL_URL = 2        # 网页地址
@@ -82,23 +87,123 @@ def extract_user_id_from_url(url: str) -> str:
     return match.group(1) if match else ""
 
 
-def get_avatar_url(user_id: str, name: str = "") -> str:
+# GitHub/Gitee 仓库 raw 地址
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main"
+GITEE_RAW_BASE = "https://gitee.com/daohei/RAL-Sponsors/raw/main"
+
+# 头像文件夹
+AVATARS_DIR = "avatars"
+
+# 头像颜色方案（美观的渐变色）
+AVATAR_COLORS = [
+    ("#667eea", "#764ba2"),  # 紫蓝渐变
+    ("#f093fb", "#f5576c"),  # 粉红渐变
+    ("#4facfe", "#00f2fe"),  # 青蓝渐变
+    ("#43e97b", "#38f9d7"),  # 绿青渐变
+    ("#fa709a", "#fee140"),  # 粉黄渐变
+    ("#a8edea", "#fed6e3"),  # 淡彩渐变
+    ("#ff9a9e", "#fecfef"),  # 粉嫩渐变
+    ("#ffecd2", "#fcb69f"),  # 暖橙渐变
+    ("#667eea", "#43e97b"),  # 蓝绿渐变
+    ("#5ee7df", "#b490ca"),  # 青紫渐变
+    ("#d299c2", "#fef9d7"),  # 淡紫渐变
+    ("#89f7fe", "#66a6ff"),  # 天蓝渐变
+]
+
+
+def get_initials(name: str) -> str:
+    """获取名称的首字母/首字"""
+    if not name:
+        return "?"
+    
+    # 过滤掉"爱发电用户_"前缀
+    if name.startswith("爱发电用户_"):
+        return name[-1].upper() if name else "?"
+    
+    # 中文名取第一个字
+    for char in name:
+        if '\u4e00' <= char <= '\u9fff':
+            return char
+    
+    # 英文名取首字母
+    first_char = name[0].upper()
+    if first_char.isalpha():
+        return first_char
+    
+    return name[0] if name else "?"
+
+
+def generate_avatar(user_id: str, name: str, output_dir: str, size: int = 200) -> str:
     """
-    生成头像URL
-    使用 Cravatar (中国可访问的Gravatar镜像) 生成头像
+    生成头像图片并保存
+    返回文件名
     """
-    if not user_id:
-        return ""
+    # 根据user_id确定颜色
+    color_index = sum(ord(c) for c in user_id) % len(AVATAR_COLORS)
+    color1, color2 = AVATAR_COLORS[color_index]
     
-    import hashlib
+    # 创建渐变背景
+    img = Image.new('RGB', (size, size), color1)
+    draw = ImageDraw.Draw(img)
     
-    # 用用户ID生成MD5哈希作为头像种子
-    hash_input = user_id.encode('utf-8')
-    md5_hash = hashlib.md5(hash_input).hexdigest()
+    # 简单的垂直渐变
+    c1 = tuple(int(color1.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
+    c2 = tuple(int(color2.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
     
-    # Cravatar - 中国可访问的 Gravatar 镜像
-    # d=identicon 使用几何图案，d=retro 使用像素风格
-    return f"https://cravatar.cn/avatar/{md5_hash}?s=200&d=identicon"
+    for y in range(size):
+        ratio = y / size
+        r = int(c1[0] * (1 - ratio) + c2[0] * ratio)
+        g = int(c1[1] * (1 - ratio) + c2[1] * ratio)
+        b = int(c1[2] * (1 - ratio) + c2[2] * ratio)
+        draw.line([(0, y), (size, y)], fill=(r, g, b))
+    
+    # 获取首字母
+    initials = get_initials(name)
+    
+    # 绘制文字
+    try:
+        # 尝试使用系统字体
+        font_size = size // 2
+        try:
+            # Windows 中文字体
+            font = ImageFont.truetype("msyh.ttc", font_size)
+        except:
+            try:
+                # macOS 中文字体
+                font = ImageFont.truetype("/System/Library/Fonts/PingFang.ttc", font_size)
+            except:
+                try:
+                    # Linux 字体
+                    font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", font_size)
+                except:
+                    font = ImageFont.load_default()
+    except:
+        font = ImageFont.load_default()
+    
+    # 计算文字位置（居中）
+    bbox = draw.textbbox((0, 0), initials, font=font)
+    text_width = bbox[2] - bbox[0]
+    text_height = bbox[3] - bbox[1]
+    x = (size - text_width) // 2
+    y = (size - text_height) // 2 - bbox[1]
+    
+    # 绘制白色文字
+    draw.text((x, y), initials, fill='white', font=font)
+    
+    # 保存文件
+    filename = f"{user_id[:12]}.png"
+    filepath = os.path.join(output_dir, filename)
+    img.save(filepath, 'PNG', optimize=True)
+    
+    return filename
+
+
+def get_avatar_url(user_id: str, filename: str) -> str:
+    """
+    获取头像的仓库URL
+    使用GitHub raw地址
+    """
+    return f"{GITHUB_RAW_BASE}/{AVATARS_DIR}/{filename}"
 
 
 def get_tier_id(total_amount: float) -> str:
@@ -224,9 +329,14 @@ def parse_csv(csv_path: str) -> Dict[str, dict]:
     return dict(sponsors)
 
 
-def generate_sponsors_json(sponsors_data: Dict[str, dict]) -> dict:
-    """生成赞助商JSON数据"""
+def generate_sponsors_json(sponsors_data: Dict[str, dict], output_dir: str) -> dict:
+    """生成赞助商JSON数据并生成头像"""
     sponsors_list = []
+    
+    # 创建头像目录
+    avatars_dir = os.path.join(output_dir, AVATARS_DIR)
+    os.makedirs(avatars_dir, exist_ok=True)
+    print(f"[INFO] 头像保存目录: {avatars_dir}")
     
     for user_id, data in sponsors_data.items():
         tier_id = get_tier_id(data["total_amount"])
@@ -234,10 +344,13 @@ def generate_sponsors_json(sponsors_data: Dict[str, dict]) -> dict:
         # 清理名称
         name = data["name"] or f"匿名支持者_{user_id[:5]}"
         
+        # 生成头像
+        avatar_filename = generate_avatar(user_id, name, avatars_dir)
+        
         sponsor = {
             "id": user_id,
             "name": name,
-            "avatarUrl": get_avatar_url(user_id, name),
+            "avatarUrl": get_avatar_url(user_id, avatar_filename),
             "bio": data.get("bio", ""),
             "tier": tier_id,
             "joinDate": data.get("join_date", datetime.now().strftime("%Y-%m")),
@@ -283,8 +396,11 @@ def main():
     
     print(f"[INFO] 解析到 {len(sponsors_data)} 位独立赞助者")
     
-    # 生成JSON
-    result, tier_counts, total_amount = generate_sponsors_json(sponsors_data)
+    # 获取输出目录
+    output_dir = os.path.dirname(os.path.abspath(output_path)) or "."
+    
+    # 生成JSON和头像
+    result, tier_counts, total_amount = generate_sponsors_json(sponsors_data, output_dir)
     
     # 显示统计
     print(f"\n[STATS] 赞助总额: {total_amount:.2f} CNY")
@@ -300,6 +416,9 @@ def main():
     
     print(f"\n[SUCCESS] 已生成: {output_path}")
     print(f"[INFO] 共 {len(result['sponsors'])} 位赞助者")
+    print(f"[INFO] 头像已保存到: {os.path.join(output_dir, AVATARS_DIR)}/")
+    print(f"\n[TIP] 推送到 GitHub 后，头像URL将生效:")
+    print(f"      git add . && git commit -m 'update sponsors' && git push")
 
 
 if __name__ == "__main__":

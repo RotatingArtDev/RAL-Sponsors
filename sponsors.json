@@ -2,7 +2,7 @@
     "version": 1,
     "name": "RAL Sponsors",
     "description": "RotatingArt Launcher 赞助者名单 - 2026年01月",
-    "lastUpdated": "2026-01-01T04:40:17Z",
+    "lastUpdated": "2026-01-01T04:43:13Z",
     "tiers": [
         {
             "id": "galaxy_guardian",
@@ -54,7 +54,7 @@
         {
             "id": "cae3a91cd69f11f0923a5254001e7c00",
             "name": "阳光下",
-            "avatarUrl": "https://cravatar.cn/avatar/c64c97b5d43088cb913ddd60ef52b83b?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/cae3a91cd69f.png",
             "bio": "",
             "tier": "galaxy_guardian",
             "joinDate": "2025-12",
@@ -63,7 +63,7 @@
         {
             "id": "730e018cd9a711f0b3c85254001e7c00",
             "name": "爱发电用户_730e0",
-            "avatarUrl": "https://cravatar.cn/avatar/06d86feec3a0d5957f752aec79066319?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/730e018cd9a7.png",
             "bio": "好好干，争取看到你成为大手子的那天?",
             "tier": "galaxy_guardian",
             "joinDate": "2025-12",
@@ -72,7 +72,7 @@
         {
             "id": "cb380bee681211efb3ea52540025c377",
             "name": "爱发电用户_cb380",
-            "avatarUrl": "https://cravatar.cn/avatar/96803140567d6e8a2cb22d13a605e5fe?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/cb380bee6812.png",
             "bio": "制作组各位大大们辛苦啦",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -81,7 +81,7 @@
         {
             "id": "da6990800e3111ec83d152540025c377",
             "name": "小绿",
-            "avatarUrl": "https://cravatar.cn/avatar/7c4638dc9b302e342f318b8d010b2e54?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/da6990800e31.png",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -90,7 +90,7 @@
         {
             "id": "f9ff35de44e511ee83d45254001e7c00",
             "name": "梅酱tnt",
-            "avatarUrl": "https://cravatar.cn/avatar/0011da78adc5e6d07831f8cdc08fd98f?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/f9ff35de44e5.png",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -99,7 +99,7 @@
         {
             "id": "9c664a6e009811f082c252540025c377",
             "name": "夢久塵",
-            "avatarUrl": "https://cravatar.cn/avatar/59f2eb776c2a6854a4ecdfaa70b31059?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/9c664a6e0098.png",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -108,7 +108,7 @@
         {
             "id": "fab8b0d0d9b311f0b47a52540025c377",
             "name": "ccBCGcn",
-            "avatarUrl": "https://cravatar.cn/avatar/4b5e65d9846ca7ac7c0013c6ce1e7e9c?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/fab8b0d0d9b3.png",
             "bio": "性能表现与兼容性相当不错，未来可期啊！",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -117,7 +117,7 @@
         {
             "id": "a035ec8482ab11edb11752540025c377",
             "name": "qwed",
-            "avatarUrl": "https://cravatar.cn/avatar/524746385002b9a968ed741513e59a81?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/a035ec8482ab.png",
             "bio": "awa",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -126,7 +126,7 @@
         {
             "id": "4d8cc6969eea11eda3655254001e7c00",
             "name": "?一拳打爆地球?",
-            "avatarUrl": "https://cravatar.cn/avatar/2d23640b1219ff171527f22ed9917f35?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4d8cc6969eea.png",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -135,7 +135,7 @@
         {
             "id": "a645dc82d2fb11ee84755254001e7c00",
             "name": "小小柒",
-            "avatarUrl": "https://cravatar.cn/avatar/8e790cae6fc0992d37d29de61dc2769c?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/a645dc82d2fb.png",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -144,7 +144,7 @@
         {
             "id": "bccd54aa22e511ef88c352540025c377",
             "name": "阿巴巴",
-            "avatarUrl": "https://cravatar.cn/avatar/db2bdbae7d764f7e3b5d2d9bd355cf36?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/bccd54aa22e5.png",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -153,7 +153,7 @@
         {
             "id": "6750b012cb8911edb5a45254001e7c00",
             "name": "茌度雨",
-            "avatarUrl": "https://cravatar.cn/avatar/25c6d9ac6b4d22cef702c261e382bd1a?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/6750b012cb89.png",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -162,7 +162,7 @@
         {
             "id": "6074843ea7e111ec8e3f52540025c377",
             "name": "爱发电用户_60748",
-            "avatarUrl": "https://cravatar.cn/avatar/5ed013b1785ccf5c05c26a4013f5188b?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/6074843ea7e1.png",
             "bio": "大佬加油！这次一定可以＾０＾~",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -171,7 +171,7 @@
         {
             "id": "804c5a7ed9b111f0b16752540025c377",
             "name": "9sad331",
-            "avatarUrl": "https://cravatar.cn/avatar/33712ae22f099cea869d50a5057404ea?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/804c5a7ed9b1.png",
             "bio": "操作方式有点反人类，点击背包里面的东西甚至会直接丢进垃圾桶什么时候考虑优化一下嘛？？",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -180,7 +180,7 @@
         {
             "id": "d54eba38d9c711f080855254001e7c00",
             "name": "爱发电用户_u5n9",
-            "avatarUrl": "https://cravatar.cn/avatar/9779e64dfed7d541d62010f8a1d6a18d?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/d54eba38d9c7.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -189,7 +189,7 @@
         {
             "id": "e5036bd4bf5411ee8e5852540025c377",
             "name": "zeros",
-            "avatarUrl": "https://cravatar.cn/avatar/297b6e0cafc539e5a8ec2d56ac1b7aea?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/e5036bd4bf54.png",
             "bio": "伟大！",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -198,7 +198,7 @@
         {
             "id": "e057af0c706d11eb991f52540025c377",
             "name": "超级老壁灯",
-            "avatarUrl": "https://cravatar.cn/avatar/72ff611563e06a18999acd61767224fa?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/e057af0c706d.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -207,7 +207,7 @@
         {
             "id": "0bdf4f3ad5d211f0bbd552540025c377",
             "name": "我。",
-            "avatarUrl": "https://cravatar.cn/avatar/13e7b4b3a0f59e01de27ef3e539953c6?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/0bdf4f3ad5d2.png",
             "bio": "????",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -216,7 +216,7 @@
         {
             "id": "f7292860475511ef8ef05254001e7c00",
             "name": "x_x_u",
-            "avatarUrl": "https://cravatar.cn/avatar/87618390317ba33a666350d7cfcee738?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/f72928604755.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -225,7 +225,7 @@
         {
             "id": "897b48ec749c11efb4ab52540025c377",
             "name": "Mc老郭",
-            "avatarUrl": "https://cravatar.cn/avatar/462a03589953ac99d70ed64a9f9e2531?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/897b48ec749c.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -234,7 +234,7 @@
         {
             "id": "67149432ce1511ec87e752540025c377",
             "name": "歌殇徒",
-            "avatarUrl": "https://cravatar.cn/avatar/fccdcaa6cbd96b1ac7ae4c9530b25453?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/67149432ce15.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -243,7 +243,7 @@
         {
             "id": "2a1203aed8a111f0b90752540025c377",
             "name": "Daualt",
-            "avatarUrl": "https://cravatar.cn/avatar/1d645c3d6ed03cc0266bc13f640e8ee7?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/2a1203aed8a1.png",
             "bio": "Camellay",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -252,7 +252,7 @@
         {
             "id": "b4a66d962afd11ef846c52540025c377",
             "name": "爱发电用户_b4a66",
-            "avatarUrl": "https://cravatar.cn/avatar/a64ea256a3a794f0fefb0245237b01dc?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/b4a66d962afd.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -261,7 +261,7 @@
         {
             "id": "98a2b24eda7911f0b48d52540025c377",
             "name": "爱发电用户_98a2b",
-            "avatarUrl": "https://cravatar.cn/avatar/c4c102b79fc432e3832125cc724b8b8f?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/98a2b24eda79.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -270,7 +270,7 @@
         {
             "id": "f753edb4dfc711f081c552540025c377",
             "name": "平常心",
-            "avatarUrl": "https://cravatar.cn/avatar/1329d73dda297e492e8f6137af21061e?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/f753edb4dfc7.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -279,7 +279,7 @@
         {
             "id": "72ceba9edcaa11f086fa52540025c377",
             "name": "爱发电用户_72ceb",
-            "avatarUrl": "https://cravatar.cn/avatar/b1b3f18f2961b21ebe58c1adc663806d?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/72ceba9edcaa.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -288,7 +288,7 @@
         {
             "id": "49f22fdcb62811f0a97052540025c377",
             "name": "ImPQlc",
-            "avatarUrl": "https://cravatar.cn/avatar/bda980031a4dee1058dafa987cf16463?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/49f22fdcb628.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -297,7 +297,7 @@
         {
             "id": "3bdccad4dd9611f0a46c52540025c377",
             "name": "汝曰為",
-            "avatarUrl": "https://cravatar.cn/avatar/c63e2f2c58f911fe9da99f3e655fd540?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/3bdccad4dd96.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -306,7 +306,7 @@
         {
             "id": "0739be16daf011f0bffa52540025c377",
             "name": "爱发电用户_0739b",
-            "avatarUrl": "https://cravatar.cn/avatar/a4be93c4c369eb826686c9dbeab78e45?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/0739be16daf0.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -315,7 +315,7 @@
         {
             "id": "e9e2b6ec49e911ecafc552540025c377",
             "name": "爱发电用户_e9e2b",
-            "avatarUrl": "https://cravatar.cn/avatar/5426de7b0899f7b8dfff25ccb458f07c?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/e9e2b6ec49e9.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -324,7 +324,7 @@
         {
             "id": "66dcd616d99a11f0845952540025c377",
             "name": "愚者",
-            "avatarUrl": "https://cravatar.cn/avatar/a929162a1187e6486512254253c0171f?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/66dcd616d99a.png",
             "bio": "加油加油加油",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -333,7 +333,7 @@
         {
             "id": "2cc0bef4c6ab11f0abd55254001e7c00",
             "name": "橙子橙子橙",
-            "avatarUrl": "https://cravatar.cn/avatar/f61f57cf2a2539832e16f69226c8fc03?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/2cc0bef4c6ab.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -342,7 +342,7 @@
         {
             "id": "fed2ce3c8a4711eba63c52540025c377",
             "name": "云??",
-            "avatarUrl": "https://cravatar.cn/avatar/77334c0177a0717259452764be812b1e?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/fed2ce3c8a47.png",
             "bio": "加油",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -351,7 +351,7 @@
         {
             "id": "db17bf7cde7811f088135254001e7c00",
             "name": "t_xYz",
-            "avatarUrl": "https://cravatar.cn/avatar/34308d2e32d7366005b7967d5dd099be?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/db17bf7cde78.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -360,7 +360,7 @@
         {
             "id": "4adffd7a90d211ee911552540025c377",
             "name": "爱发电用户_4adff",
-            "avatarUrl": "https://cravatar.cn/avatar/933d1325185501c14b64e1470f556b82?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4adffd7a90d2.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -369,7 +369,7 @@
         {
             "id": "cb5274de823411efaf9552540025c377",
             "name": "Kemor",
-            "avatarUrl": "https://cravatar.cn/avatar/1e7aac13464b5f13033e236d03338fe8?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/cb5274de8234.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -378,7 +378,7 @@
         {
             "id": "ef4d00f03fab11efb96252540025c377",
             "name": "爱发电用户_ef4d0",
-            "avatarUrl": "https://cravatar.cn/avatar/a78ef0bc98fe249776bf93d0febc6cca?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/ef4d00f03fab.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -387,7 +387,7 @@
         {
             "id": "8860a3acd10b11eda1fd52540025c377",
             "name": "子戊",
-            "avatarUrl": "https://cravatar.cn/avatar/f74e635e606ff2836ad51663d84a839d?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/8860a3acd10b.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -396,7 +396,7 @@
         {
             "id": "4fad012a9d0c11f0b1a45254001e7c00",
             "name": "爱发电用户_4fad0",
-            "avatarUrl": "https://cravatar.cn/avatar/e6357b1316d3769774a71fb29e4c20ac?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4fad012a9d0c.png",
             "bio": "ε(*?ω?)_/?:?☆",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -405,7 +405,7 @@
         {
             "id": "4397e0f43f4c11ef924a52540025c377",
             "name": "无纸人生",
-            "avatarUrl": "https://cravatar.cn/avatar/738731907f7911680e5412c02e75b60d?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4397e0f43f4c.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -414,7 +414,7 @@
         {
             "id": "3baab6ccd8a811f0a3af52540025c377",
             "name": "爱发电用户_xNBM",
-            "avatarUrl": "https://cravatar.cn/avatar/48c6503c5ebb66d6c1359c5cd8e08e1d?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/3baab6ccd8a8.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -423,7 +423,7 @@
         {
             "id": "46ddc0fa916a11f096f65254001e7c00",
             "name": "小天",
-            "avatarUrl": "https://cravatar.cn/avatar/066f7b50d9629e06c65a41d5111d50c9?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/46ddc0fa916a.png",
             "bio": "114514",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -432,7 +432,7 @@
         {
             "id": "552f123ed82911f0af2c52540025c377",
             "name": "爱发电用户_3aYg",
-            "avatarUrl": "https://cravatar.cn/avatar/7d6f4a64b3767ebfc51496e651335d22?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/552f123ed829.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -441,7 +441,7 @@
         {
             "id": "831fd4f6d82611f0982152540025c377",
             "name": "爱发电用户_dKbq",
-            "avatarUrl": "https://cravatar.cn/avatar/3fef950885d1f1897fd8ff127a8a869d?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/831fd4f6d826.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -450,7 +450,7 @@
         {
             "id": "5f65638cd54411ee812252540025c377",
             "name": "爱发电用户_5f656",
-            "avatarUrl": "https://cravatar.cn/avatar/ecf81bcb257b149b84747b8e88f4a841?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/5f65638cd544.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -459,7 +459,7 @@
         {
             "id": "fca91936a65011eeb7b05254001e7c00",
             "name": "laodai",
-            "avatarUrl": "https://cravatar.cn/avatar/2a9c008a628b54c3d184bcec13089e80?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/fca91936a650.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -468,7 +468,7 @@
         {
             "id": "c795c8f059ee11ef974f52540025c377",
             "name": "操飞你",
-            "avatarUrl": "https://cravatar.cn/avatar/bbd1e93e1dcdb46ab91c1f24514a4929?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/c795c8f059ee.png",
             "bio": "我想体验",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -477,7 +477,7 @@
         {
             "id": "8d504dd6d7b611f0ae415254001e7c00",
             "name": "123",
-            "avatarUrl": "https://cravatar.cn/avatar/63901895b212741233b8cb84ba482a58?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/8d504dd6d7b6.png",
             "bio": "加油",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -486,7 +486,7 @@
         {
             "id": "b6e92ecad73811f08d4952540025c377",
             "name": "既待即起",
-            "avatarUrl": "https://cravatar.cn/avatar/ecc1b446f74e4e9d5a7c768948b1b28d?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/b6e92ecad738.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -495,7 +495,7 @@
         {
             "id": "a878b1640d6a11f082e152540025c377",
             "name": "???",
-            "avatarUrl": "https://cravatar.cn/avatar/571a45e34043d92f26c0b1b4879ce9f3?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/a878b1640d6a.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -504,7 +504,7 @@
         {
             "id": "bd72bd4ed5d311f0be2b5254001e7c00",
             "name": "RKKZ",
-            "avatarUrl": "https://cravatar.cn/avatar/82afcb5a8ffec0fa2043aad333a1d9f8?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/bd72bd4ed5d3.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -513,7 +513,7 @@
         {
             "id": "36667cd6d75011f0943d52540025c377",
             "name": "爱发电用户_36667",
-            "avatarUrl": "https://cravatar.cn/avatar/ab0b6dd646a1ee9fbf180f0a04a2703a?s=200&d=identicon",
+            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/36667cd6d750.png",
             "bio": "hero",
             "tier": "early_supporter",
             "joinDate": "2025-12",
