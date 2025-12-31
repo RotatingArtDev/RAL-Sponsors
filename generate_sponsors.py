@@ -82,11 +82,25 @@ def extract_user_id_from_url(url: str) -> str:
     return match.group(1) if match else ""
 
 
-def get_avatar_url(user_id: str) -> str:
-    """生成爱发电头像URL"""
+def get_avatar_url(user_id: str, name: str = "") -> str:
+    """
+    生成头像URL
+    优先使用爱发电CDN，备用 UI Avatars 服务
+    """
     if not user_id:
         return ""
-    return f"https://pic1.afdiancdn.com/user/{user_id}/avatar/{user_id}_w.jpeg"
+    
+    # 使用 DiceBear API 生成像素风格头像（基于用户ID确保唯一性）
+    # 可选风格: avataaars, bottts, identicon, pixel-art, shapes
+    return f"https://api.dicebear.com/7.x/identicon/svg?seed={user_id}"
+    
+    # 备选方案1: UI Avatars (根据名字生成)
+    # import urllib.parse
+    # encoded_name = urllib.parse.quote(name or user_id[:5])
+    # return f"https://ui-avatars.com/api/?name={encoded_name}&background=random&color=fff&size=128"
+    
+    # 备选方案2: 爱发电原生头像（可能有访问限制）
+    # return f"https://pic1.afdiancdn.com/user/{user_id}/avatar/{user_id}_w.jpeg"
 
 
 def get_tier_id(total_amount: float) -> str:
@@ -225,7 +239,7 @@ def generate_sponsors_json(sponsors_data: Dict[str, dict]) -> dict:
         sponsor = {
             "id": user_id,
             "name": name,
-            "avatarUrl": get_avatar_url(user_id),
+            "avatarUrl": get_avatar_url(user_id, name),
             "bio": data.get("bio", ""),
             "tier": tier_id,
             "joinDate": data.get("join_date", datetime.now().strftime("%Y-%m")),
