@@ -1,0 +1,523 @@
+{
+    "version": 1,
+    "name": "RAL Sponsors",
+    "description": "RotatingArt Launcher 赞助者名单 - 2025年12月",
+    "lastUpdated": "2026-01-01T00:00:00Z",
+    "tiers": [
+        {
+            "id": "galaxy_guardian",
+            "name": "银河守护者",
+            "nameEn": "Galaxy Guardian",
+            "color": "#9B59B6",
+            "particleType": "galaxy",
+            "order": 100,
+            "minAmount": 200
+        },
+        {
+            "id": "starlight_patron",
+            "name": "星空探索家",
+            "nameEn": "Starlight Patron",
+            "color": "#E74C3C",
+            "particleType": "firework",
+            "order": 80,
+            "minAmount": 100
+        },
+        {
+            "id": "cosmic_supporter",
+            "name": "极致合伙人",
+            "nameEn": "Cosmic Supporter",
+            "color": "#3498DB",
+            "particleType": "stars",
+            "order": 60,
+            "minAmount": 50
+        },
+        {
+            "id": "beta_scout",
+            "name": "星光先锋",
+            "nameEn": "Starlight Pioneer",
+            "color": "#2ECC71",
+            "particleType": "sparkle",
+            "order": 40,
+            "minAmount": 18
+        },
+        {
+            "id": "early_supporter",
+            "name": "爱心维护员",
+            "nameEn": "Early Supporter",
+            "color": "#F39C12",
+            "particleType": "none",
+            "order": 20,
+            "minAmount": 5
+        }
+    ],
+    "sponsors": [
+        {
+            "id": "cae3a91cd69f11f0923a5254001e7c00",
+            "name": "树懒君",
+            "avatarUrl": "",
+            "bio": "感谢支持 RAL！",
+            "tier": "galaxy_guardian",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/cae3a91cd69f11f0923a5254001e7c00"
+        },
+        {
+            "id": "730e018cd9a711f0b3c85254001e7c00",
+            "name": "爱发电用户_730e0",
+            "avatarUrl": "",
+            "bio": "好好干！争取出正式版！",
+            "tier": "galaxy_guardian",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/730e018cd9a711f0b3c85254001e7c00"
+        },
+        {
+            "id": "cb380bee681211efb3ea52540025c377",
+            "name": "爱发电用户_cb380",
+            "avatarUrl": "",
+            "bio": "继续肝鸭！多多加油！",
+            "tier": "starlight_patron",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/cb380bee681211efb3ea52540025c377"
+        },
+        {
+            "id": "da6990800e3111ec83d152540025c377",
+            "name": "小明",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "starlight_patron",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/da6990800e3111ec83d152540025c377"
+        },
+        {
+            "id": "9c664a6e009811f082c252540025c377",
+            "name": "贺兰m",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "starlight_patron",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/9c664a6e009811f082c252540025c377"
+        },
+        {
+            "id": "fab8b0d0d9b311f0b47a52540025c377",
+            "name": "ccBCGcn",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "starlight_patron",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/fab8b0d0d9b311f0b47a52540025c377"
+        },
+        {
+            "id": "f9ff35de44e511ee83d45254001e7c00",
+            "name": "梅菲tnt",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "starlight_patron",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/f9ff35de44e511ee83d45254001e7c00"
+        },
+        {
+            "id": "bccd54aa22e511ef88c352540025c377",
+            "name": "吉米扒",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "cosmic_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/bccd54aa22e511ef88c352540025c377"
+        },
+        {
+            "id": "a035ec8482ab11edb11752540025c377",
+            "name": "qwed",
+            "avatarUrl": "",
+            "bio": "awa",
+            "tier": "cosmic_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/a035ec8482ab11edb11752540025c377"
+        },
+        {
+            "id": "a645dc82d2fb11ee84755254001e7c00",
+            "name": "小小酥",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "cosmic_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/a645dc82d2fb11ee84755254001e7c00"
+        },
+        {
+            "id": "4d8cc6969eea11eda3655254001e7c00",
+            "name": "一拳打爆地球?",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "cosmic_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/4d8cc6969eea11eda3655254001e7c00"
+        },
+        {
+            "id": "6750b012cb8911edb5a45254001e7c00",
+            "name": "梦醒吧",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "cosmic_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/6750b012cb8911edb5a45254001e7c00"
+        },
+        {
+            "id": "6074843ea7e111ec8e3f52540025c377",
+            "name": "爱发电用户_60748",
+            "avatarUrl": "",
+            "bio": "随心加油！",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/6074843ea7e111ec8e3f52540025c377"
+        },
+        {
+            "id": "804c5a7ed9b111f0b16752540025c377",
+            "name": "9sad331",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/804c5a7ed9b111f0b16752540025c377"
+        },
+        {
+            "id": "e5036bd4bf5411ee8e5852540025c377",
+            "name": "zeros",
+            "avatarUrl": "",
+            "bio": "伟大",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/e5036bd4bf5411ee8e5852540025c377"
+        },
+        {
+            "id": "0bdf4f3ad5d211f0bbd552540025c377",
+            "name": "我。",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/0bdf4f3ad5d211f0bbd552540025c377"
+        },
+        {
+            "id": "d54eba38d9c711f080855254001e7c00",
+            "name": "爱发电用户_u5n9",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/d54eba38d9c711f080855254001e7c00"
+        },
+        {
+            "id": "e057af0c706d11eb991f52540025c377",
+            "name": "挂在墙上壁灯",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/e057af0c706d11eb991f52540025c377"
+        },
+        {
+            "id": "2a1203aed8a111f0b90752540025c377",
+            "name": "Daualt",
+            "avatarUrl": "",
+            "bio": "Camellay",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/2a1203aed8a111f0b90752540025c377"
+        },
+        {
+            "id": "2cc0bef4c6ab11f0abd55254001e7c00",
+            "name": "老子吃老子吃",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/2cc0bef4c6ab11f0abd55254001e7c00"
+        },
+        {
+            "id": "66dcd616d99a11f0845952540025c377",
+            "name": "懂王",
+            "avatarUrl": "",
+            "bio": "懂王就懂王！",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/66dcd616d99a11f0845952540025c377"
+        },
+        {
+            "id": "67149432ce1511ec87e752540025c377",
+            "name": "星芋吐",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/67149432ce1511ec87e752540025c377"
+        },
+        {
+            "id": "e9e2b6ec49e911ecafc552540025c377",
+            "name": "爱发电用户_e9e2b",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/e9e2b6ec49e911ecafc552540025c377"
+        },
+        {
+            "id": "49f22fdcb62811f0a97052540025c377",
+            "name": "ImPQlc",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/49f22fdcb62811f0a97052540025c377"
+        },
+        {
+            "id": "f7292860475511ef8ef05254001e7c00",
+            "name": "x_x_u",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/f7292860475511ef8ef05254001e7c00"
+        },
+        {
+            "id": "72ceba9edcaa11f086fa52540025c377",
+            "name": "爱发电用户_72ceb",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/72ceba9edcaa11f086fa52540025c377"
+        },
+        {
+            "id": "fed2ce3c8a4711eba63c52540025c377",
+            "name": "俺??",
+            "avatarUrl": "",
+            "bio": "加油",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/fed2ce3c8a4711eba63c52540025c377"
+        },
+        {
+            "id": "b4a66d962afd11ef846c52540025c377",
+            "name": "爱发电用户_b4a66",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/b4a66d962afd11ef846c52540025c377"
+        },
+        {
+            "id": "f753edb4dfc711f081c552540025c377",
+            "name": "平行线",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/f753edb4dfc711f081c552540025c377"
+        },
+        {
+            "id": "3bdccad4dd9611f0a46c52540025c377",
+            "name": "江辉江",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/3bdccad4dd9611f0a46c52540025c377"
+        },
+        {
+            "id": "0739be16daf011f0bffa52540025c377",
+            "name": "爱发电用户_0739b",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/0739be16daf011f0bffa52540025c377"
+        },
+        {
+            "id": "98a2b24eda7911f0b48d52540025c377",
+            "name": "爱发电用户_98a2b",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/98a2b24eda7911f0b48d52540025c377"
+        },
+        {
+            "id": "897b48ec749c11efb4ab52540025c377",
+            "name": "Mc老龟",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/897b48ec749c11efb4ab52540025c377"
+        },
+        {
+            "id": "46ddc0fa916a11f096f65254001e7c00",
+            "name": "小鱼",
+            "avatarUrl": "",
+            "bio": "114514",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/46ddc0fa916a11f096f65254001e7c00"
+        },
+        {
+            "id": "bd72bd4ed5d311f0be2b5254001e7c00",
+            "name": "RKKZ",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/bd72bd4ed5d311f0be2b5254001e7c00"
+        },
+        {
+            "id": "cb5274de823411efaf9552540025c377",
+            "name": "Kemor",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/cb5274de823411efaf9552540025c377"
+        },
+        {
+            "id": "5f65638cd54411ee812252540025c377",
+            "name": "爱发电用户_5f656",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/5f65638cd54411ee812252540025c377"
+        },
+        {
+            "id": "ef4d00f03fab11efb96252540025c377",
+            "name": "爱发电用户_ef4d0",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/ef4d00f03fab11efb96252540025c377"
+        },
+        {
+            "id": "552f123ed82911f0af2c52540025c377",
+            "name": "爱发电用户_3aYg",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/552f123ed82911f0af2c52540025c377"
+        },
+        {
+            "id": "831fd4f6d82611f0982152540025c377",
+            "name": "爱发电用户_dKbq",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/831fd4f6d82611f0982152540025c377"
+        },
+        {
+            "id": "4fad012a9d0c11f0b1a45254001e7c00",
+            "name": "爱发电用户_4fad0",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/4fad012a9d0c11f0b1a45254001e7c00"
+        },
+        {
+            "id": "db17bf7cde7811f088135254001e7c00",
+            "name": "t_xYz",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/db17bf7cde7811f088135254001e7c00"
+        },
+        {
+            "id": "fca91936a65011eeb7b05254001e7c00",
+            "name": "laodai",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/fca91936a65011eeb7b05254001e7c00"
+        },
+        {
+            "id": "c795c8f059ee11ef974f52540025c377",
+            "name": "官方版",
+            "avatarUrl": "",
+            "bio": "泰拉之巅",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/c795c8f059ee11ef974f52540025c377"
+        },
+        {
+            "id": "3baab6ccd8a811f0a3af52540025c377",
+            "name": "爱发电用户_xNBM",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/3baab6ccd8a811f0a3af52540025c377"
+        },
+        {
+            "id": "8860a3acd10b11eda1fd52540025c377",
+            "name": "蜀黍",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/8860a3acd10b11eda1fd52540025c377"
+        },
+        {
+            "id": "8d504dd6d7b611f0ae415254001e7c00",
+            "name": "123",
+            "avatarUrl": "",
+            "bio": "干杯",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/8d504dd6d7b611f0ae415254001e7c00"
+        },
+        {
+            "id": "4adffd7a90d211ee911552540025c377",
+            "name": "爱发电用户_4adff",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/4adffd7a90d211ee911552540025c377"
+        },
+        {
+            "id": "b6e92ecad73811f08d4952540025c377",
+            "name": "等待奇迹",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/b6e92ecad73811f08d4952540025c377"
+        },
+        {
+            "id": "a878b1640d6a11f082e152540025c377",
+            "name": "???",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/a878b1640d6a11f082e152540025c377"
+        },
+        {
+            "id": "4397e0f43f4c11ef924a52540025c377",
+            "name": "剪纸大师",
+            "avatarUrl": "",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/4397e0f43f4c11ef924a52540025c377"
+        },
+        {
+            "id": "36667cd6d75011f0943d52540025c377",
+            "name": "爱发电用户_36667",
+            "avatarUrl": "",
+            "bio": "hero",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/36667cd6d75011f0943d52540025c377"
+        }
+    ]
+}
