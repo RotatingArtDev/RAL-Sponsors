@@ -14,9 +14,13 @@ import csv
 import json
 import sys
 import re
+import os
 from datetime import datetime
 from collections import defaultdict
 from typing import Dict, List, Tuple
+
+# Pillow for avatar generation
+from PIL import Image, ImageDraw, ImageFont
 
 # 爱发电CSV列索引 (固定格式)
 COL_URL = 2        # 网页地址
@@ -82,20 +86,107 @@ def extract_user_id_from_url(url: str) -> str:
     return match.group(1) if match else ""
 
 
-# 爱发电头像CDN地址
-AFDIAN_AVATAR_CDN = "https://pic1.afdiancdn.com/user/{user_id}/avatar/{user_id}_w.jpeg"
-AFDIAN_DEFAULT_AVATAR = "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png"
+# GitHub/Gitee 仓库 raw 地址
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main"
+GITEE_RAW_BASE = "https://gitee.com/daohei/RAL-Sponsors/raw/main"
+
+# 头像文件夹
+AVATARS_DIR = "avatars"
+
+# 头像颜色方案（渐变色）
+AVATAR_COLORS = [
+    ("#667eea", "#764ba2"),  # 紫蓝
+    ("#f093fb", "#f5576c"),  # 粉红
+    ("#4facfe", "#00f2fe"),  # 青蓝
+    ("#43e97b", "#38f9d7"),  # 绿青
+    ("#fa709a", "#fee140"),  # 粉黄
+    ("#ff9a9e", "#fecfef"),  # 粉嫩
+    ("#a18cd1", "#fbc2eb"),  # 淡紫
+    ("#ffecd2", "#fcb69f"),  # 暖橙
+    ("#89f7fe", "#66a6ff"),  # 天蓝
+    ("#d299c2", "#fef9d7"),  # 淡粉
+]
 
 
-def get_avatar_url(user_id: str) -> str:
-    """
-    获取爱发电用户头像URL
-    格式: https://pic1.afdiancdn.com/user/{user_id}/avatar/{user_id}_w.jpeg
-    """
-    if not user_id:
-        return AFDIAN_DEFAULT_AVATAR
+def get_initials(name: str) -> str:
+    """获取名称的首字母/首字"""
+    if not name:
+        return "?"
     
-    return AFDIAN_AVATAR_CDN.format(user_id=user_id)
+    # 过滤"爱发电用户_"前缀
+    if name.startswith("爱发电用户_"):
+        return name[-1].upper() if name else "?"
+    
+    # 中文名取第一个字
+    for char in name:
+        if '\u4e00' <= char <= '\u9fff':
+            return char
+    
+    # 英文名取首字母
+    first_char = name[0].upper()
+    if first_char.isalpha():
+        return first_char
+    
+    return name[0] if name else "?"
+
+
+def generate_avatar(user_id: str, name: str, output_dir: str, size: int = 200) -> str:
+    """生成头像图片并保存，返回文件名"""
+    # 根据user_id确定颜色
+    color_index = sum(ord(c) for c in user_id) % len(AVATAR_COLORS)
+    color1, color2 = AVATAR_COLORS[color_index]
+    
+    # 创建渐变背景
+    img = Image.new('RGB', (size, size), color1)
+    draw = ImageDraw.Draw(img)
+    
+    c1 = tuple(int(color1.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
+    c2 = tuple(int(color2.lstrip('#')[i:i+2], 16) for i in (0, 2, 4))
+    
+    for y in range(size):
+        ratio = y / size
+        r = int(c1[0] * (1 - ratio) + c2[0] * ratio)
+        g = int(c1[1] * (1 - ratio) + c2[1] * ratio)
+        b = int(c1[2] * (1 - ratio) + c2[2] * ratio)
+        draw.line([(0, y), (size, y)], fill=(r, g, b))
+    
+    # 获取首字母
+    initials = get_initials(name)
+    
+    # 绘制文字
+    font_size = size // 2
+    try:
+        # Windows 中文字体
+        font = ImageFont.truetype("msyh.ttc", font_size)
+    except:
+        try:
+            font = ImageFont.truetype("C:/Windows/Fonts/msyh.ttc", font_size)
+        except:
+            try:
+                font = ImageFont.truetype("arial.ttf", font_size)
+            except:
+                font = ImageFont.load_default()
+    
+    # 居中绘制
+    bbox = draw.textbbox((0, 0), initials, font=font)
+    text_width = bbox[2] - bbox[0]
+    text_height = bbox[3] - bbox[1]
+    x = (size - text_width) // 2
+    y = (size - text_height) // 2 - bbox[1]
+    
+    draw.text((x, y), initials, fill='white', font=font)
+    
+    # 保存
+    filename = f"{user_id[:12]}.png"
+    filepath = os.path.join(output_dir, filename)
+    img.save(filepath, 'PNG', optimize=True)
+    
+    return filename
+
+
+def get_avatar_url(filename: str) -> str:
+    """获取头像的仓库URL"""
+    return f"{GITHUB_RAW_BASE}/{AVATARS_DIR}/{filename}"
 
 
 def get_tier_id(total_amount: float) -> str:
@@ -221,9 +312,14 @@ def parse_csv(csv_path: str) -> Dict[str, dict]:
     return dict(sponsors)
 
 
-def generate_sponsors_json(sponsors_data: Dict[str, dict]) -> dict:
-    """生成赞助商JSON数据"""
+def generate_sponsors_json(sponsors_data: Dict[str, dict], output_dir: str) -> dict:
+    """生成赞助商JSON数据并生成头像"""
     sponsors_list = []
+    
+    # 创建头像目录
+    avatars_dir = os.path.join(output_dir, AVATARS_DIR)
+    os.makedirs(avatars_dir, exist_ok=True)
+    print(f"[INFO] 生成头像到: {avatars_dir}")
     
     for user_id, data in sponsors_data.items():
         tier_id = get_tier_id(data["total_amount"])
@@ -231,10 +327,13 @@ def generate_sponsors_json(sponsors_data: Dict[str, dict]) -> dict:
         # 清理名称
         name = data["name"] or f"匿名支持者_{user_id[:5]}"
         
+        # 生成本地头像
+        avatar_filename = generate_avatar(user_id, name, avatars_dir)
+        
         sponsor = {
             "id": user_id,
             "name": name,
-            "avatarUrl": get_avatar_url(user_id),  # 直接使用爱发电头像
+            "avatarUrl": get_avatar_url(avatar_filename),
             "bio": data.get("bio", ""),
             "tier": tier_id,
             "joinDate": data.get("join_date", datetime.now().strftime("%Y-%m")),
@@ -280,8 +379,11 @@ def main():
     
     print(f"[INFO] 解析到 {len(sponsors_data)} 位独立赞助者")
     
-    # 生成JSON（使用爱发电官方头像）
-    result, tier_counts, total_amount = generate_sponsors_json(sponsors_data)
+    # 获取输出目录
+    output_dir = os.path.dirname(os.path.abspath(output_path)) or "."
+    
+    # 生成JSON和本地头像
+    result, tier_counts, total_amount = generate_sponsors_json(sponsors_data, output_dir)
     
     # 显示统计
     print(f"\n[STATS] 赞助总额: {total_amount:.2f} CNY")
@@ -297,7 +399,9 @@ def main():
     
     print(f"\n[SUCCESS] 已生成: {output_path}")
     print(f"[INFO] 共 {len(result['sponsors'])} 位赞助者")
-    print(f"[INFO] 头像使用爱发电官方CDN: pic1.afdiancdn.com")
+    print(f"[INFO] 头像保存在: {AVATARS_DIR}/ 文件夹")
+    print(f"\n[NEXT] 推送到GitHub使头像生效:")
+    print(f"       git add . && git commit -m 'update' && git push")
 
 
 if __name__ == "__main__":
