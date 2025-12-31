@@ -85,23 +85,20 @@ def extract_user_id_from_url(url: str) -> str:
 def get_avatar_url(user_id: str, name: str = "") -> str:
     """
     生成头像URL
-    使用 UI Avatars 服务生成 PNG 头像
+    使用 Cravatar (中国可访问的Gravatar镜像) 生成头像
     """
     if not user_id:
         return ""
     
-    # 使用 UI Avatars 生成头像 (PNG格式，Glide兼容)
-    # 从用户名取首字符，或用ID前几位
-    import urllib.parse
-    display_name = name if name and not name.startswith("爱发电用户_") else user_id[:6]
-    encoded_name = urllib.parse.quote(display_name)
+    import hashlib
     
-    # 根据用户ID生成固定的背景色
-    colors = ["7C3AED", "EC4899", "3B82F6", "10B981", "F59E0B", "EF4444", "8B5CF6", "06B6D4"]
-    color_index = sum(ord(c) for c in user_id) % len(colors)
-    bg_color = colors[color_index]
+    # 用用户ID生成MD5哈希作为头像种子
+    hash_input = user_id.encode('utf-8')
+    md5_hash = hashlib.md5(hash_input).hexdigest()
     
-    return f"https://ui-avatars.com/api/?name={encoded_name}&background={bg_color}&color=fff&size=200&bold=true"
+    # Cravatar - 中国可访问的 Gravatar 镜像
+    # d=identicon 使用几何图案，d=retro 使用像素风格
+    return f"https://cravatar.cn/avatar/{md5_hash}?s=200&d=identicon"
 
 
 def get_tier_id(total_amount: float) -> str:
