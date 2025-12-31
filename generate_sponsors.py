@@ -85,22 +85,23 @@ def extract_user_id_from_url(url: str) -> str:
 def get_avatar_url(user_id: str, name: str = "") -> str:
     """
     生成头像URL
-    优先使用爱发电CDN，备用 UI Avatars 服务
+    使用 UI Avatars 服务生成 PNG 头像
     """
     if not user_id:
         return ""
     
-    # 使用 DiceBear API 生成像素风格头像（基于用户ID确保唯一性）
-    # 可选风格: avataaars, bottts, identicon, pixel-art, shapes
-    return f"https://api.dicebear.com/7.x/identicon/svg?seed={user_id}"
+    # 使用 UI Avatars 生成头像 (PNG格式，Glide兼容)
+    # 从用户名取首字符，或用ID前几位
+    import urllib.parse
+    display_name = name if name and not name.startswith("爱发电用户_") else user_id[:6]
+    encoded_name = urllib.parse.quote(display_name)
     
-    # 备选方案1: UI Avatars (根据名字生成)
-    # import urllib.parse
-    # encoded_name = urllib.parse.quote(name or user_id[:5])
-    # return f"https://ui-avatars.com/api/?name={encoded_name}&background=random&color=fff&size=128"
+    # 根据用户ID生成固定的背景色
+    colors = ["7C3AED", "EC4899", "3B82F6", "10B981", "F59E0B", "EF4444", "8B5CF6", "06B6D4"]
+    color_index = sum(ord(c) for c in user_id) % len(colors)
+    bg_color = colors[color_index]
     
-    # 备选方案2: 爱发电原生头像（可能有访问限制）
-    # return f"https://pic1.afdiancdn.com/user/{user_id}/avatar/{user_id}_w.jpeg"
+    return f"https://ui-avatars.com/api/?name={encoded_name}&background={bg_color}&color=fff&size=200&bold=true"
 
 
 def get_tier_id(total_amount: float) -> str:

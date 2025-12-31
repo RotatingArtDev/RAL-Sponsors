@@ -2,7 +2,7 @@
     "version": 1,
     "name": "RAL Sponsors",
     "description": "RotatingArt Launcher 赞助者名单 - 2026年01月",
-    "lastUpdated": "2026-01-01T04:38:02Z",
+    "lastUpdated": "2026-01-01T04:38:36Z",
     "tiers": [
         {
             "id": "galaxy_guardian",
@@ -54,7 +54,7 @@
         {
             "id": "cae3a91cd69f11f0923a5254001e7c00",
             "name": "阳光下",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=cae3a91cd69f11f0923a5254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E9%98%B3%E5%85%89%E4%B8%8B&background=3B82F6&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "galaxy_guardian",
             "joinDate": "2025-12",
@@ -63,7 +63,7 @@
         {
             "id": "730e018cd9a711f0b3c85254001e7c00",
             "name": "爱发电用户_730e0",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=730e018cd9a711f0b3c85254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=730e01&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "好好干，争取看到你成为大手子的那天?",
             "tier": "galaxy_guardian",
             "joinDate": "2025-12",
@@ -72,7 +72,7 @@
         {
             "id": "cb380bee681211efb3ea52540025c377",
             "name": "爱发电用户_cb380",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=cb380bee681211efb3ea52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=cb380b&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "制作组各位大大们辛苦啦",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -81,7 +81,7 @@
         {
             "id": "da6990800e3111ec83d152540025c377",
             "name": "小绿",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=da6990800e3111ec83d152540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E5%B0%8F%E7%BB%BF&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -90,7 +90,7 @@
         {
             "id": "f9ff35de44e511ee83d45254001e7c00",
             "name": "梅酱tnt",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=f9ff35de44e511ee83d45254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%A2%85%E9%85%B1tnt&background=EF4444&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -99,7 +99,7 @@
         {
             "id": "9c664a6e009811f082c252540025c377",
             "name": "夢久塵",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=9c664a6e009811f082c252540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E5%A4%A2%E4%B9%85%E5%A1%B5&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -108,7 +108,7 @@
         {
             "id": "fab8b0d0d9b311f0b47a52540025c377",
             "name": "ccBCGcn",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=fab8b0d0d9b311f0b47a52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=ccBCGcn&background=3B82F6&color=fff&size=200&bold=true",
             "bio": "性能表现与兼容性相当不错，未来可期啊！",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -117,7 +117,7 @@
         {
             "id": "a035ec8482ab11edb11752540025c377",
             "name": "qwed",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=a035ec8482ab11edb11752540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=qwed&background=10B981&color=fff&size=200&bold=true",
             "bio": "awa",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -126,7 +126,7 @@
         {
             "id": "4d8cc6969eea11eda3655254001e7c00",
             "name": "?一拳打爆地球?",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=4d8cc6969eea11eda3655254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%3F%E4%B8%80%E6%8B%B3%E6%89%93%E7%88%86%E5%9C%B0%E7%90%83%3F&background=EC4899&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -135,7 +135,7 @@
         {
             "id": "a645dc82d2fb11ee84755254001e7c00",
             "name": "小小柒",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=a645dc82d2fb11ee84755254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E5%B0%8F%E5%B0%8F%E6%9F%92&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -144,7 +144,7 @@
         {
             "id": "bccd54aa22e511ef88c352540025c377",
             "name": "阿巴巴",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=bccd54aa22e511ef88c352540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E9%98%BF%E5%B7%B4%E5%B7%B4&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -153,7 +153,7 @@
         {
             "id": "6750b012cb8911edb5a45254001e7c00",
             "name": "茌度雨",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=6750b012cb8911edb5a45254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E8%8C%8C%E5%BA%A6%E9%9B%A8&background=F59E0B&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
@@ -162,7 +162,7 @@
         {
             "id": "6074843ea7e111ec8e3f52540025c377",
             "name": "爱发电用户_60748",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=6074843ea7e111ec8e3f52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=607484&background=8B5CF6&color=fff&size=200&bold=true",
             "bio": "大佬加油！这次一定可以＾０＾~",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -171,7 +171,7 @@
         {
             "id": "804c5a7ed9b111f0b16752540025c377",
             "name": "9sad331",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=804c5a7ed9b111f0b16752540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=9sad331&background=F59E0B&color=fff&size=200&bold=true",
             "bio": "操作方式有点反人类，点击背包里面的东西甚至会直接丢进垃圾桶什么时候考虑优化一下嘛？？",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -180,7 +180,7 @@
         {
             "id": "d54eba38d9c711f080855254001e7c00",
             "name": "爱发电用户_u5n9",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=d54eba38d9c711f080855254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=d54eba&background=F59E0B&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -189,7 +189,7 @@
         {
             "id": "e5036bd4bf5411ee8e5852540025c377",
             "name": "zeros",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=e5036bd4bf5411ee8e5852540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=zeros&background=06B6D4&color=fff&size=200&bold=true",
             "bio": "伟大！",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -198,7 +198,7 @@
         {
             "id": "e057af0c706d11eb991f52540025c377",
             "name": "超级老壁灯",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=e057af0c706d11eb991f52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E8%B6%85%E7%BA%A7%E8%80%81%E5%A3%81%E7%81%AF&background=EC4899&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -207,7 +207,7 @@
         {
             "id": "0bdf4f3ad5d211f0bbd552540025c377",
             "name": "我。",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=0bdf4f3ad5d211f0bbd552540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%88%91%E3%80%82&background=EC4899&color=fff&size=200&bold=true",
             "bio": "????",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -216,7 +216,7 @@
         {
             "id": "f7292860475511ef8ef05254001e7c00",
             "name": "x_x_u",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=f7292860475511ef8ef05254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=x_x_u&background=EF4444&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -225,7 +225,7 @@
         {
             "id": "897b48ec749c11efb4ab52540025c377",
             "name": "Mc老郭",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=897b48ec749c11efb4ab52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=Mc%E8%80%81%E9%83%AD&background=8B5CF6&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -234,7 +234,7 @@
         {
             "id": "67149432ce1511ec87e752540025c377",
             "name": "歌殇徒",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=67149432ce1511ec87e752540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%AD%8C%E6%AE%87%E5%BE%92&background=3B82F6&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -243,7 +243,7 @@
         {
             "id": "2a1203aed8a111f0b90752540025c377",
             "name": "Daualt",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=2a1203aed8a111f0b90752540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=Daualt&background=3B82F6&color=fff&size=200&bold=true",
             "bio": "Camellay",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -252,7 +252,7 @@
         {
             "id": "b4a66d962afd11ef846c52540025c377",
             "name": "爱发电用户_b4a66",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=b4a66d962afd11ef846c52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=b4a66d&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -261,7 +261,7 @@
         {
             "id": "98a2b24eda7911f0b48d52540025c377",
             "name": "爱发电用户_98a2b",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=98a2b24eda7911f0b48d52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=98a2b2&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -270,7 +270,7 @@
         {
             "id": "f753edb4dfc711f081c552540025c377",
             "name": "平常心",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=f753edb4dfc711f081c552540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E5%B9%B3%E5%B8%B8%E5%BF%83&background=F59E0B&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -279,7 +279,7 @@
         {
             "id": "72ceba9edcaa11f086fa52540025c377",
             "name": "爱发电用户_72ceb",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=72ceba9edcaa11f086fa52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=72ceba&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -288,7 +288,7 @@
         {
             "id": "49f22fdcb62811f0a97052540025c377",
             "name": "ImPQlc",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=49f22fdcb62811f0a97052540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=ImPQlc&background=3B82F6&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -297,7 +297,7 @@
         {
             "id": "3bdccad4dd9611f0a46c52540025c377",
             "name": "汝曰為",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=3bdccad4dd9611f0a46c52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%B1%9D%E6%9B%B0%E7%82%BA&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -306,7 +306,7 @@
         {
             "id": "0739be16daf011f0bffa52540025c377",
             "name": "爱发电用户_0739b",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=0739be16daf011f0bffa52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=0739be&background=8B5CF6&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -315,7 +315,7 @@
         {
             "id": "e9e2b6ec49e911ecafc552540025c377",
             "name": "爱发电用户_e9e2b",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=e9e2b6ec49e911ecafc552540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=e9e2b6&background=F59E0B&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -324,7 +324,7 @@
         {
             "id": "66dcd616d99a11f0845952540025c377",
             "name": "愚者",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=66dcd616d99a11f0845952540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%84%9A%E8%80%85&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "加油加油加油",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -333,7 +333,7 @@
         {
             "id": "2cc0bef4c6ab11f0abd55254001e7c00",
             "name": "橙子橙子橙",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=2cc0bef4c6ab11f0abd55254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%A9%99%E5%AD%90%E6%A9%99%E5%AD%90%E6%A9%99&background=EC4899&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -342,7 +342,7 @@
         {
             "id": "fed2ce3c8a4711eba63c52540025c377",
             "name": "云??",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=fed2ce3c8a4711eba63c52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E4%BA%91%3F%3F&background=F59E0B&color=fff&size=200&bold=true",
             "bio": "加油",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -351,7 +351,7 @@
         {
             "id": "db17bf7cde7811f088135254001e7c00",
             "name": "t_xYz",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=db17bf7cde7811f088135254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=t_xYz&background=F59E0B&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -360,7 +360,7 @@
         {
             "id": "4adffd7a90d211ee911552540025c377",
             "name": "爱发电用户_4adff",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=4adffd7a90d211ee911552540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=4adffd&background=06B6D4&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -369,7 +369,7 @@
         {
             "id": "cb5274de823411efaf9552540025c377",
             "name": "Kemor",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=cb5274de823411efaf9552540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=Kemor&background=8B5CF6&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -378,7 +378,7 @@
         {
             "id": "ef4d00f03fab11efb96252540025c377",
             "name": "爱发电用户_ef4d0",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=ef4d00f03fab11efb96252540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=ef4d00&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -387,7 +387,7 @@
         {
             "id": "8860a3acd10b11eda1fd52540025c377",
             "name": "子戊",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=8860a3acd10b11eda1fd52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E5%AD%90%E6%88%8A&background=06B6D4&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -396,7 +396,7 @@
         {
             "id": "4fad012a9d0c11f0b1a45254001e7c00",
             "name": "爱发电用户_4fad0",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=4fad012a9d0c11f0b1a45254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=4fad01&background=10B981&color=fff&size=200&bold=true",
             "bio": "ε(*?ω?)_/?:?☆",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -405,7 +405,7 @@
         {
             "id": "4397e0f43f4c11ef924a52540025c377",
             "name": "无纸人生",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=4397e0f43f4c11ef924a52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%97%A0%E7%BA%B8%E4%BA%BA%E7%94%9F&background=8B5CF6&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -414,7 +414,7 @@
         {
             "id": "3baab6ccd8a811f0a3af52540025c377",
             "name": "爱发电用户_xNBM",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=3baab6ccd8a811f0a3af52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=3baab6&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -423,7 +423,7 @@
         {
             "id": "46ddc0fa916a11f096f65254001e7c00",
             "name": "小天",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=46ddc0fa916a11f096f65254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E5%B0%8F%E5%A4%A9&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "114514",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -432,7 +432,7 @@
         {
             "id": "552f123ed82911f0af2c52540025c377",
             "name": "爱发电用户_3aYg",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=552f123ed82911f0af2c52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=552f12&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -441,7 +441,7 @@
         {
             "id": "831fd4f6d82611f0982152540025c377",
             "name": "爱发电用户_dKbq",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=831fd4f6d82611f0982152540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=831fd4&background=EC4899&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -450,7 +450,7 @@
         {
             "id": "5f65638cd54411ee812252540025c377",
             "name": "爱发电用户_5f656",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=5f65638cd54411ee812252540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=5f6563&background=06B6D4&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -459,7 +459,7 @@
         {
             "id": "fca91936a65011eeb7b05254001e7c00",
             "name": "laodai",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=fca91936a65011eeb7b05254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=laodai&background=EC4899&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -468,7 +468,7 @@
         {
             "id": "c795c8f059ee11ef974f52540025c377",
             "name": "操飞你",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=c795c8f059ee11ef974f52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%93%8D%E9%A3%9E%E4%BD%A0&background=10B981&color=fff&size=200&bold=true",
             "bio": "我想体验",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -477,7 +477,7 @@
         {
             "id": "8d504dd6d7b611f0ae415254001e7c00",
             "name": "123",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=8d504dd6d7b611f0ae415254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=123&background=EC4899&color=fff&size=200&bold=true",
             "bio": "加油",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -486,7 +486,7 @@
         {
             "id": "b6e92ecad73811f08d4952540025c377",
             "name": "既待即起",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=b6e92ecad73811f08d4952540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%E6%97%A2%E5%BE%85%E5%8D%B3%E8%B5%B7&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -495,7 +495,7 @@
         {
             "id": "a878b1640d6a11f082e152540025c377",
             "name": "???",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=a878b1640d6a11f082e152540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=%3F%3F%3F&background=10B981&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -504,7 +504,7 @@
         {
             "id": "bd72bd4ed5d311f0be2b5254001e7c00",
             "name": "RKKZ",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=bd72bd4ed5d311f0be2b5254001e7c00",
+            "avatarUrl": "https://ui-avatars.com/api/?name=RKKZ&background=EC4899&color=fff&size=200&bold=true",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -513,7 +513,7 @@
         {
             "id": "36667cd6d75011f0943d52540025c377",
             "name": "爱发电用户_36667",
-            "avatarUrl": "https://api.dicebear.com/7.x/identicon/svg?seed=36667cd6d75011f0943d52540025c377",
+            "avatarUrl": "https://ui-avatars.com/api/?name=36667c&background=7C3AED&color=fff&size=200&bold=true",
             "bio": "hero",
             "tier": "early_supporter",
             "joinDate": "2025-12",
