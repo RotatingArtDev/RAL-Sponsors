@@ -154,7 +154,7 @@ def process_sponsors(api_sponsors: List[dict]) -> dict:
             "avatarUrl": avatar_url,  # 真实头像！
             "bio": "",
             "tier": get_tier_id(total_amount),
-            "joinDate": sponsor.get('first_pay_time', '')[:7] if sponsor.get('first_pay_time') else "",
+            "joinDate": time.strftime("%Y-%m", time.localtime(sponsor.get('first_pay_time', 0))) if sponsor.get('first_pay_time') else "",
             "website": f"https://afdian.com/u/{user_id}"
         }
         sponsors_list.append(sponsor_data)

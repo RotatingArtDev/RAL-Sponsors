@@ -1,8 +1,8 @@
 {
     "version": 1,
     "name": "RAL Sponsors",
-    "description": "RotatingArt Launcher 赞助者名单 - 2026年01月",
-    "lastUpdated": "2026-01-01T04:49:04Z",
+    "description": "RotatingArt Launcher 赞助者名单",
+    "lastUpdated": "2026-01-01T04:54:23Z",
     "tiers": [
         {
             "id": "galaxy_guardian",
@@ -52,54 +52,45 @@
     ],
     "sponsors": [
         {
+            "id": "730e018cd9a711f0b3c85254001e7c00",
+            "name": "爱发电用户_730e0",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+            "bio": "",
+            "tier": "galaxy_guardian",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/730e018cd9a711f0b3c85254001e7c00"
+        },
+        {
             "id": "cae3a91cd69f11f0923a5254001e7c00",
             "name": "阳光下",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/cae3a91cd69f.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/cae3a91cd69f11f0923a5254001e7c00/avatar/e747dc71bdc87addf0dec48202609d7e_w300_h300_s3.png",
             "bio": "",
             "tier": "galaxy_guardian",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/cae3a91cd69f11f0923a5254001e7c00"
         },
         {
-            "id": "730e018cd9a711f0b3c85254001e7c00",
-            "name": "爱发电用户_730e0",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/730e018cd9a7.png",
-            "bio": "好好干，争取看到你成为大手子的那天?",
-            "tier": "galaxy_guardian",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/730e018cd9a711f0b3c85254001e7c00"
-        },
-        {
-            "id": "cb380bee681211efb3ea52540025c377",
-            "name": "爱发电用户_cb380",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/cb380bee6812.png",
-            "bio": "制作组各位大大们辛苦啦",
-            "tier": "starlight_patron",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/cb380bee681211efb3ea52540025c377"
-        },
-        {
-            "id": "da6990800e3111ec83d152540025c377",
-            "name": "小绿",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/da6990800e31.png",
-            "bio": "",
-            "tier": "starlight_patron",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/da6990800e3111ec83d152540025c377"
-        },
-        {
             "id": "f9ff35de44e511ee83d45254001e7c00",
             "name": "梅酱tnt",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/f9ff35de44e5.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/f9ff35de44e511ee83d45254001e7c00/avatar/2c971df603636338da010abb831f157e_w1280_h1280_s495.jpeg",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/f9ff35de44e511ee83d45254001e7c00"
         },
         {
+            "id": "da6990800e3111ec83d152540025c377",
+            "name": "小绿",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/da6990800e3111ec83d152540025c377/avatar/97ec9cac0725821a87c84d71a70ed6a6_w1080_h1080_s126.jpeg",
+            "bio": "",
+            "tier": "starlight_patron",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/da6990800e3111ec83d152540025c377"
+        },
+        {
             "id": "9c664a6e009811f082c252540025c377",
             "name": "夢久塵",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/9c664a6e0098.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/9c664a6e009811f082c252540025c377/avatar/bde4949ce0b3e5ad6c79cd2723e7242e_w854_h1139_s90.jpeg",
             "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
@@ -108,133 +99,70 @@
         {
             "id": "fab8b0d0d9b311f0b47a52540025c377",
             "name": "ccBCGcn",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/fab8b0d0d9b3.png",
-            "bio": "性能表现与兼容性相当不错，未来可期啊！",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/fab8b0d0d9b311f0b47a52540025c377/avatar/6ea3fe4155871c0d71a18a434cce488d_w1080_h1080_s32.jpeg",
+            "bio": "",
             "tier": "starlight_patron",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/fab8b0d0d9b311f0b47a52540025c377"
         },
         {
-            "id": "a035ec8482ab11edb11752540025c377",
-            "name": "qwed",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/a035ec8482ab.png",
-            "bio": "awa",
-            "tier": "cosmic_supporter",
+            "id": "cb380bee681211efb3ea52540025c377",
+            "name": "爱发电用户_cb380",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+            "bio": "",
+            "tier": "starlight_patron",
             "joinDate": "2025-12",
-            "website": "https://afdian.com/u/a035ec8482ab11edb11752540025c377"
+            "website": "https://afdian.com/u/cb380bee681211efb3ea52540025c377"
         },
         {
             "id": "4d8cc6969eea11eda3655254001e7c00",
-            "name": "?一拳打爆地球?",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4d8cc6969eea.png",
+            "name": "😡一拳打爆地球😡",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/4d8cc6969eea11eda3655254001e7c00/avatar/c2636b9a6bd384f5ab0b8e2e29691729_w1075_h1046_s91.jpeg",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/4d8cc6969eea11eda3655254001e7c00"
         },
         {
-            "id": "a645dc82d2fb11ee84755254001e7c00",
-            "name": "小小柒",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/a645dc82d2fb.png",
-            "bio": "",
-            "tier": "cosmic_supporter",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/a645dc82d2fb11ee84755254001e7c00"
-        },
-        {
             "id": "bccd54aa22e511ef88c352540025c377",
             "name": "阿巴巴",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/bccd54aa22e5.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/bccd54aa22e511ef88c352540025c377"
         },
         {
+            "id": "a645dc82d2fb11ee84755254001e7c00",
+            "name": "小小柒",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/a645dc82d2fb11ee84755254001e7c00/avatar/d8b21fdbc61e2a99c0689e33d46ca685_w800_h800_s60.jpeg",
+            "bio": "",
+            "tier": "cosmic_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/a645dc82d2fb11ee84755254001e7c00"
+        },
+        {
+            "id": "a035ec8482ab11edb11752540025c377",
+            "name": "qwed",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
+            "bio": "",
+            "tier": "cosmic_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/a035ec8482ab11edb11752540025c377"
+        },
+        {
             "id": "6750b012cb8911edb5a45254001e7c00",
             "name": "茌度雨",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/6750b012cb89.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/6750b012cb8911edb5a45254001e7c00/avatar/62a02382cc349f8a57d6815ae0859430_w470_h363_s56.jpeg",
             "bio": "",
             "tier": "cosmic_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/6750b012cb8911edb5a45254001e7c00"
         },
         {
-            "id": "6074843ea7e111ec8e3f52540025c377",
-            "name": "爱发电用户_60748",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/6074843ea7e1.png",
-            "bio": "大佬加油！这次一定可以＾０＾~",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/6074843ea7e111ec8e3f52540025c377"
-        },
-        {
-            "id": "804c5a7ed9b111f0b16752540025c377",
-            "name": "9sad331",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/804c5a7ed9b1.png",
-            "bio": "操作方式有点反人类，点击背包里面的东西甚至会直接丢进垃圾桶什么时候考虑优化一下嘛？？",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/804c5a7ed9b111f0b16752540025c377"
-        },
-        {
-            "id": "d54eba38d9c711f080855254001e7c00",
-            "name": "爱发电用户_u5n9",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/d54eba38d9c7.png",
-            "bio": "",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/d54eba38d9c711f080855254001e7c00"
-        },
-        {
-            "id": "e5036bd4bf5411ee8e5852540025c377",
-            "name": "zeros",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/e5036bd4bf54.png",
-            "bio": "伟大！",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/e5036bd4bf5411ee8e5852540025c377"
-        },
-        {
-            "id": "e057af0c706d11eb991f52540025c377",
-            "name": "超级老壁灯",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/e057af0c706d.png",
-            "bio": "",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/e057af0c706d11eb991f52540025c377"
-        },
-        {
-            "id": "0bdf4f3ad5d211f0bbd552540025c377",
-            "name": "我。",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/0bdf4f3ad5d2.png",
-            "bio": "????",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/0bdf4f3ad5d211f0bbd552540025c377"
-        },
-        {
-            "id": "f7292860475511ef8ef05254001e7c00",
-            "name": "x_x_u",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/f72928604755.png",
-            "bio": "",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/f7292860475511ef8ef05254001e7c00"
-        },
-        {
-            "id": "897b48ec749c11efb4ab52540025c377",
-            "name": "Mc老郭",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/897b48ec749c.png",
-            "bio": "",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/897b48ec749c11efb4ab52540025c377"
-        },
-        {
             "id": "67149432ce1511ec87e752540025c377",
             "name": "歌殇徒",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/67149432ce15.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -243,8 +171,8 @@
         {
             "id": "2a1203aed8a111f0b90752540025c377",
             "name": "Daualt",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/2a1203aed8a1.png",
-            "bio": "Camellay",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+            "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/2a1203aed8a111f0b90752540025c377"
@@ -252,7 +180,7 @@
         {
             "id": "b4a66d962afd11ef846c52540025c377",
             "name": "爱发电用户_b4a66",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/b4a66d962afd.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -261,7 +189,7 @@
         {
             "id": "98a2b24eda7911f0b48d52540025c377",
             "name": "爱发电用户_98a2b",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/98a2b24eda79.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -270,25 +198,16 @@
         {
             "id": "f753edb4dfc711f081c552540025c377",
             "name": "平常心",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/f753edb4dfc7.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/f753edb4dfc711f081c552540025c377"
         },
         {
-            "id": "72ceba9edcaa11f086fa52540025c377",
-            "name": "爱发电用户_72ceb",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/72ceba9edcaa.png",
-            "bio": "",
-            "tier": "beta_scout",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/72ceba9edcaa11f086fa52540025c377"
-        },
-        {
             "id": "49f22fdcb62811f0a97052540025c377",
             "name": "ImPQlc",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/49f22fdcb628.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -297,25 +216,70 @@
         {
             "id": "3bdccad4dd9611f0a46c52540025c377",
             "name": "汝曰為",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/3bdccad4dd96.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/3bdccad4dd9611f0a46c52540025c377/avatar/d509306f67450a4c905f36c98b23af25_w400_h400_s27.jpeg",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/3bdccad4dd9611f0a46c52540025c377"
         },
         {
+            "id": "72ceba9edcaa11f086fa52540025c377",
+            "name": "爱发电用户_72ceb",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/72ceba9edcaa11f086fa52540025c377"
+        },
+        {
             "id": "0739be16daf011f0bffa52540025c377",
             "name": "爱发电用户_0739b",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/0739be16daf0.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/0739be16daf011f0bffa52540025c377"
         },
         {
+            "id": "2cc0bef4c6ab11f0abd55254001e7c00",
+            "name": "橙子橙子橙",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/2cc0bef4c6ab11f0abd55254001e7c00/avatar/f243c7fe2454561eafd7fb348c780d31_w447_h447_s18.jpeg",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/2cc0bef4c6ab11f0abd55254001e7c00"
+        },
+        {
+            "id": "fed2ce3c8a4711eba63c52540025c377",
+            "name": "云☁️",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/fed2ce3c8a4711eba63c52540025c377/avatar/8a598baba2f1258b81e137a4c58882de_w1080_h2022_s1261.jpeg",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/fed2ce3c8a4711eba63c52540025c377"
+        },
+        {
+            "id": "d54eba38d9c711f080855254001e7c00",
+            "name": "爱发电用户_u5n9",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/d54eba38d9c711f080855254001e7c00"
+        },
+        {
+            "id": "804c5a7ed9b111f0b16752540025c377",
+            "name": "9sad331",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/804c5a7ed9b111f0b16752540025c377"
+        },
+        {
             "id": "e9e2b6ec49e911ecafc552540025c377",
             "name": "爱发电用户_e9e2b",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/e9e2b6ec49e9.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
@@ -324,34 +288,70 @@
         {
             "id": "66dcd616d99a11f0845952540025c377",
             "name": "愚者",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/66dcd616d99a.png",
-            "bio": "加油加油加油",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/66dcd616d99a11f0845952540025c377/avatar/46ab86f2e16fe96be0bc2d0cd1d93171_w1032_h480_s67.jpeg",
+            "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/66dcd616d99a11f0845952540025c377"
         },
         {
-            "id": "2cc0bef4c6ab11f0abd55254001e7c00",
-            "name": "橙子橙子橙",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/2cc0bef4c6ab.png",
+            "id": "e5036bd4bf5411ee8e5852540025c377",
+            "name": "zeros",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-yellow.png",
             "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
-            "website": "https://afdian.com/u/2cc0bef4c6ab11f0abd55254001e7c00"
+            "website": "https://afdian.com/u/e5036bd4bf5411ee8e5852540025c377"
         },
         {
-            "id": "fed2ce3c8a4711eba63c52540025c377",
-            "name": "云??",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/fed2ce3c8a47.png",
-            "bio": "加油",
+            "id": "e057af0c706d11eb991f52540025c377",
+            "name": "超级老壁灯",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
+            "bio": "",
             "tier": "beta_scout",
             "joinDate": "2025-12",
-            "website": "https://afdian.com/u/fed2ce3c8a4711eba63c52540025c377"
+            "website": "https://afdian.com/u/e057af0c706d11eb991f52540025c377"
+        },
+        {
+            "id": "897b48ec749c11efb4ab52540025c377",
+            "name": "Mc老郭",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/897b48ec749c11efb4ab52540025c377/avatar/3dc7c91fb2636f815e50600d1e9a384c_w1000_h1000_s217.png",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/897b48ec749c11efb4ab52540025c377"
+        },
+        {
+            "id": "6074843ea7e111ec8e3f52540025c377",
+            "name": "爱发电用户_60748",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/6074843ea7e111ec8e3f52540025c377"
+        },
+        {
+            "id": "f7292860475511ef8ef05254001e7c00",
+            "name": "x_x_u",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/f7292860475511ef8ef05254001e7c00/avatar/76a7c707a58b158f2e9c07bfdf9d76d1_w528_h702_s52.jpeg",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/f7292860475511ef8ef05254001e7c00"
+        },
+        {
+            "id": "0bdf4f3ad5d211f0bbd552540025c377",
+            "name": "我。",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+            "bio": "",
+            "tier": "beta_scout",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/0bdf4f3ad5d211f0bbd552540025c377"
         },
         {
             "id": "db17bf7cde7811f088135254001e7c00",
             "name": "t_xYz",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/db17bf7cde78.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/db17bf7cde7811f088135254001e7c00/avatar/d33b50b6cac5f6836144776663fd8790_w240_h240_s1239.jpg.gif",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -360,16 +360,25 @@
         {
             "id": "4adffd7a90d211ee911552540025c377",
             "name": "爱发电用户_4adff",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4adffd7a90d2.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/4adffd7a90d211ee911552540025c377"
         },
         {
+            "id": "36667cd6d75011f0943d52540025c377",
+            "name": "爱发电用户_36667",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+            "bio": "",
+            "tier": "early_supporter",
+            "joinDate": "2025-12",
+            "website": "https://afdian.com/u/36667cd6d75011f0943d52540025c377"
+        },
+        {
             "id": "cb5274de823411efaf9552540025c377",
             "name": "Kemor",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/cb5274de8234.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -378,7 +387,7 @@
         {
             "id": "ef4d00f03fab11efb96252540025c377",
             "name": "爱发电用户_ef4d0",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/ef4d00f03fab.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -387,7 +396,7 @@
         {
             "id": "8860a3acd10b11eda1fd52540025c377",
             "name": "子戊",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/8860a3acd10b.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/8860a3acd10b11eda1fd52540025c377/avatar/ab4e912438ee6d1149f087b28bd178a2_w1200_h1800_s1592.jpeg",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -396,8 +405,8 @@
         {
             "id": "4fad012a9d0c11f0b1a45254001e7c00",
             "name": "爱发电用户_4fad0",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4fad012a9d0c.png",
-            "bio": "ε(*?ω?)_/?:?☆",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
+            "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/4fad012a9d0c11f0b1a45254001e7c00"
@@ -405,7 +414,7 @@
         {
             "id": "4397e0f43f4c11ef924a52540025c377",
             "name": "无纸人生",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/4397e0f43f4c.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -414,7 +423,7 @@
         {
             "id": "3baab6ccd8a811f0a3af52540025c377",
             "name": "爱发电用户_xNBM",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/3baab6ccd8a8.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -423,8 +432,8 @@
         {
             "id": "46ddc0fa916a11f096f65254001e7c00",
             "name": "小天",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/46ddc0fa916a.png",
-            "bio": "114514",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/46ddc0fa916a11f096f65254001e7c00/avatar/2eee7c0e6aad6e0d206c611a7868bbde_w1080_h2400_s247.jpeg",
+            "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/46ddc0fa916a11f096f65254001e7c00"
@@ -432,7 +441,7 @@
         {
             "id": "552f123ed82911f0af2c52540025c377",
             "name": "爱发电用户_3aYg",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/552f123ed829.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -441,7 +450,7 @@
         {
             "id": "831fd4f6d82611f0982152540025c377",
             "name": "爱发电用户_dKbq",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/831fd4f6d826.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -450,7 +459,7 @@
         {
             "id": "5f65638cd54411ee812252540025c377",
             "name": "爱发电用户_5f656",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/5f65638cd544.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png?imageView2/1/",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -459,7 +468,7 @@
         {
             "id": "fca91936a65011eeb7b05254001e7c00",
             "name": "laodai",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/fca91936a650.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -468,8 +477,8 @@
         {
             "id": "c795c8f059ee11ef974f52540025c377",
             "name": "操飞你",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/c795c8f059ee.png",
-            "bio": "我想体验",
+            "avatarUrl": "https://pic1.afdiancdn.com/user/c795c8f059ee11ef974f52540025c377/avatar/56d2f5950aca5b4102817becd3033a16_w441_h441_s24.png",
+            "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/c795c8f059ee11ef974f52540025c377"
@@ -477,8 +486,8 @@
         {
             "id": "8d504dd6d7b611f0ae415254001e7c00",
             "name": "123",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/8d504dd6d7b6.png",
-            "bio": "加油",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-orange.png",
+            "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/8d504dd6d7b611f0ae415254001e7c00"
@@ -486,7 +495,7 @@
         {
             "id": "b6e92ecad73811f08d4952540025c377",
             "name": "既待即起",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/b6e92ecad738.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -494,8 +503,8 @@
         },
         {
             "id": "a878b1640d6a11f082e152540025c377",
-            "name": "???",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/a878b1640d6a.png",
+            "name": "⌓‿⌓",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-purple.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
@@ -504,20 +513,11 @@
         {
             "id": "bd72bd4ed5d311f0be2b5254001e7c00",
             "name": "RKKZ",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/bd72bd4ed5d3.png",
+            "avatarUrl": "https://pic1.afdiancdn.com/default/avatar/avatar-blue.png",
             "bio": "",
             "tier": "early_supporter",
             "joinDate": "2025-12",
             "website": "https://afdian.com/u/bd72bd4ed5d311f0be2b5254001e7c00"
-        },
-        {
-            "id": "36667cd6d75011f0943d52540025c377",
-            "name": "爱发电用户_36667",
-            "avatarUrl": "https://raw.githubusercontent.com/RotatingArtDev/RAL-Sponsors/main/avatars/36667cd6d750.png",
-            "bio": "hero",
-            "tier": "early_supporter",
-            "joinDate": "2025-12",
-            "website": "https://afdian.com/u/36667cd6d75011f0943d52540025c377"
         }
     ]
 }
